@@ -1,0 +1,225 @@
+body {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.form-container {
+  /* position: absolute;
+  top: 50%;
+  transform: translate(0, 50%); */
+}
+
+.form-container .card-body {
+  padding: 0 40px 20px 40px;
+}
+
+.form-container .form-title h4 {
+  font-weight: bold;
+}
+
+.stracos-bg-primary {
+  background-color: #bf372d;
+}
+
+.stracos-primary {
+  color: #bf372d;
+}
+
+.google-btn {
+  border: 1px solid #ced4da;
+  background: transparent;
+}
+
+.google-btn img {
+  width: 30px;
+  float: left;
+}
+
+.logo {
+  width: 150px;
+}
+
+.terms-privacy-container {
+  color: #8c8c8c;
+  text-align: center;
+  width: 75%;
+  font-size: 13px;
+}
+
+.sign-up-footer {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+.sign-up-footer .log-in a {
+  text-decoration: underline;
+}
+
+.sign-up-footer ul {
+  list-style: none;
+}
+
+.sign-up-footer ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.order-detail ul li {
+  list-style-type: none;
+}
+
+.sign-up-footer ul li:last-child {
+  margin-right: 0;
+}
+
+.sign-up-footer .footer-menu a {
+  color: unset;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.product-wrapper {
+  height: calc(100% - 85px);
+}
+
+.component-item {
+  padding: 0.75rem 15px;
+}
+
+.component-sidebar .component-item .btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url('../img/rgb.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.component-sidebar .component-search-container input{
+  padding-right: 35px;
+}
+
+.component-sidebar .component-search-container i{
+  position: absolute;
+  margin-top: -23px;
+  right: 45px;
+  transform: translate(0, -50%);
+  color: #c4c4c4;
+}
+
+
+.component-image-container img {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.component-image-container .component-zoom {
+  position: absolute;
+  top: 25%;
+  right: 15px;
+}
+
+.component-image-container .component-zoom .btn {
+  display: none;
+  color: #c4c4c4;
+}
+
+.component-image-container .btn-toolbar {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.component-image-container .btn-toolbar .btn-group .btn {
+  width: 150px;
+  border-radius: 30px;
+  
+}
+
+.component-image-container .btn-chevron-left,
+.component-image-container .btn-chevron-right {
+  display: none;
+
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #ffffff;
+}
+
+.component-image-container .btn-chevron-left {
+  left: 15px;
+ }
+
+.component-image-container .btn-chevron-right {
+ right: 15px;
+}
+
+.btn-outline-primary{
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  box-shadow: 0 3px 15px 0 #c4c4c4;
+  z-index: 1;
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.header{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.pdf-download {
+  width: 100px;
+}
+
+/* Override color-picker css */
+.pcr-app[data-theme=nano] {
+  width: unset;
+}
+
+.pcr-app[data-theme=nano] .pcr-selection {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.pcr-app[data-theme=nano] .pcr-selection .pcr-color-chooser {
+  margin: 20px 10px;
+}
+
+.pickr button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.pickr .pcr-button::before {
+  border-radius: 50% !important;
+}
+
+.pickr .pcr-button::after {
+  border-radius: 50% !important;
+}
+
+.pcr-app .pcr-interaction {
+  display: block !important;
+}
+
+.pcr-app .pcr-interaction .pcr-result {
+  display: block !important;
+  width: 100% !important;
+}
